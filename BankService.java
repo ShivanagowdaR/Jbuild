@@ -23,8 +23,7 @@ public static void main(String[] args){
    System.out.println("After deposite : ",+acc.getbalance());
   acc.withdraw(200);
    System.out.println("After withdraw : ",+acc.getbalance());
-  acc.getbalance();
-   System.out.println("Final balance : ",+acc.getbalance());
+  System.out.println("Final balance : ",+acc.getbalance());
 }
 }
 
