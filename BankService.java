@@ -3,8 +3,8 @@ public class BankService {
   static class BankAccount {
     double balance;
   }
-  double balance{
-    balance=money;
+  BankAccount{
+    double money;
   }
   void deposit(double money){
     balance = balance + money;
