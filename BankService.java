@@ -2,7 +2,7 @@ import java.util.*;
 public class BankService {
   static class BankAccount {
     double balance;
-  }
+  
   BankAccount{
     double money;
   }
@@ -15,7 +15,7 @@ public class BankService {
   double getbalance(){
     balance = money;
   }
-
+  }
 public static void main(String[] args){
   BankAccount acc = new BankAccount(5000);
   System.out.println("initial balance : ",+acc.getbalance());
